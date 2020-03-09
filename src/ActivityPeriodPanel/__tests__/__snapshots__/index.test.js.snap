@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity Period Panel renders correctly 1`] = `
+<div
+  className="inca-period-picker-panel"
+  data-test="period-panel"
+>
+  <Menu
+    className=""
+    focusable={false}
+    mode="horizontal"
+    prefixCls="ant-menu"
+    selectedKeys={
+      Array [
+        "today",
+      ]
+    }
+    theme="light"
+  >
+    <MenuItem
+      className=""
+      data-test={1}
+      key="1"
+      onClick={[Function]}
+    >
+      Today
+    </MenuItem>
+    <MenuItem
+      className=""
+      data-test={2}
+      key="2"
+      onClick={[Function]}
+    >
+      Yesterday
+    </MenuItem>
+    <MenuItem
+      className="custom-date-picker-list"
+      data-test="custom"
+      key="custom"
+    >
+      <PickerWrapper
+        allowClear={false}
+        className="custom-date-picker"
+        dropdownClassName="custom-date-picker-drop"
+        format="ddd D MMM"
+        id="period-selector"
+        inputPrefixCls="ant-input"
+        locale={Object {}}
+        onChange={[Function]}
+        onOk={[Function]}
+        onOpenChange={[Function]}
+        popupStyle={Object {}}
+        prefixCls="ant-calendar"
+        transitionName="slide-up"
+        value={
+          Array [
+            "2019-06-20T23:00:00.000Z",
+            "2019-06-21T22:59:59.999Z",
+          ]
+        }
+      />
+    </MenuItem>
+  </Menu>
+</div>
+`;

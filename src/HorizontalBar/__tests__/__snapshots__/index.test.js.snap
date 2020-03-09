@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HorizontalBar when given data it renders correctly 1`] = `
+<BChart
+  data={
+    View {
+      "_events": Object {
+        "change": Array [],
+      },
+      "_source": Object {
+        "options": undefined,
+        "source": Array [
+          Object {
+            "name": "anonymous",
+            "value": 40,
+          },
+          Object {
+            "name": "RA",
+            "value": 10,
+          },
+          Object {
+            "name": "subscriber",
+            "value": 50,
+          },
+        ],
+      },
+      "dataSet": null,
+      "dataType": "table",
+      "isDataView": true,
+      "isView": true,
+      "loose": true,
+      "origin": Array [
+        Object {
+          "name": "anonymous",
+          "value": 40,
+        },
+        Object {
+          "name": "RA",
+          "value": 10,
+        },
+        Object {
+          "name": "subscriber",
+          "value": 50,
+        },
+      ],
+      "rows": Array [
+        Object {
+          "name": "anonymous",
+          "percent": 0.4,
+          "value": 40,
+        },
+        Object {
+          "name": "RA",
+          "percent": 0.1,
+          "value": 10,
+        },
+        Object {
+          "name": "subscriber",
+          "percent": 0.5,
+          "value": 50,
+        },
+      ],
+      "transforms": Array [
+        Object {
+          "as": "percent",
+          "dimension": "name",
+          "field": "value",
+          "type": "percent",
+        },
+      ],
+      "watchingStates": null,
+    }
+  }
+  forceFit={true}
+  height={50}
+  padding="auto"
+  scale={
+    Object {
+      "percent": Object {
+        "formatter": [Function],
+      },
+    }
+  }
+>
+  <Legend
+    itemFormatter={[Function]}
+    offsetY={-10}
+    textStyle={
+      Object {
+        "fill": "rgba(255, 255, 255, 0.65)",
+      }
+    }
+    visible={true}
+  />
+  <TypedComponent
+    transpose={true}
+  />
+  <TypedComponent
+    color={
+      Array [
+        "name",
+      ]
+    }
+    position="1*percent"
+    size={10}
+    type="intervalStack"
+  />
+</BChart>
+`;

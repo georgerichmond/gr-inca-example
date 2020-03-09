@@ -1,0 +1,81 @@
+.inca-period-picker-panel {
+  .ant-radio-group {
+    font-size: 1.3rem;
+    display: flex;
+  }
+
+  .ant-radio-button-wrapper {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .ant-menu-horizontal {
+    line-height: 3rem;
+    display: flex;
+  }
+
+  .ant-menu-item {
+    flex: 0 0 10%;
+    text-align: center;
+    padding: 0 8px;
+    &.custom-date-picker-list {
+      flex: 1 0 10%;
+    }
+    &.feature-toggle-off {
+      flex-grow: 1;
+    }
+  }
+
+  .custom-datepicker-list {
+    padding: 0;
+  }
+}
+.custom-date-picker {
+  .ant-calendar-picker-input {
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    padding: 4px 0;
+  }
+  .ant-calendar-picker-clear {
+    position: relative;
+    right: -6px;
+    top: 0;
+  }
+  .ant-calendar-picker-icon {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .ant-calendar-range-picker-input {
+    width: 40%;
+  }
+}
+
+.custom-date-picker-drop {
+  .ant-calendar-range {
+    width: 100%;
+    .ant-calendar-input {
+      padding-left: 10px;
+    }
+  }
+
+  .ant-calendar-range-right {
+    .ant-calendar-date-input-wrap {
+      margin-left: 0;
+    }
+  }
+
+  .ant-calendar-range-middle {
+    left: 47.5%;
+    margin-left: 0;
+  }
+
+  .ant-calendar {
+    border: 5px solid #19374c;
+  }
+
+  .ant-calendar-disabled-cell {
+    opacity: 0.2;
+  }
+}

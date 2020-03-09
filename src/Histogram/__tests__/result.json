@@ -1,0 +1,40 @@
+{
+  "data": {
+    "report": {
+      "articles": {
+        "edges": [
+          {
+            "dimensions": {
+              "activityPeriodTimeSeries": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "2018-09-30T00:00:00Z",
+                      "name": "2018-09-30T00:00:00Z"
+                    },
+                    "metrics": {
+                      "uniqueVisitors": {
+                        "total": 9903
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "id": "2018-09-30T01:00:00Z",
+                      "name": "2018-09-30T01:00:00Z"
+                    },
+                    "metrics": {
+                      "uniqueVisitors": {
+                        "total": 2506
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

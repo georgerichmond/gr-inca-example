@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistogramPresentation when given data it renders correctly 1`] = `
+<div
+  data-test="uniqueVisitors-histogram"
+>
+  <BChart
+    data={
+      Array [
+        Object {
+          "x": "2018-09-30T00:00:00Z",
+          "y": 9903,
+        },
+        Object {
+          "x": "2018-09-30T01:00:00Z",
+          "y": 2506,
+        },
+      ]
+    }
+    forceFit={true}
+    height={100}
+    padding="auto"
+    scale={
+      Object {
+        "x": Object {
+          "formatter": [Function],
+          "max": "2018-11-05T00:00:00.000Z",
+          "min": "2018-11-04T00:00:00.000Z",
+          "tickCount": 6,
+          "type": "time",
+        },
+        "y": Object {
+          "alias": "Unique visitors",
+          "formatter": [Function],
+          "max": undefined,
+          "min": 0,
+          "tickCount": 3,
+        },
+      }
+    }
+  >
+    <TypedComponent
+      label={
+        Object {
+          "autoRotate": false,
+        }
+      }
+      name="x"
+      tickLine={
+        Object {
+          "length": 2,
+        }
+      }
+    />
+    <TypedComponent
+      name="y"
+    />
+    <TypedComponent
+      crosshairs={
+        Object {
+          "type": "line",
+        }
+      }
+      g2-tooltip={
+        Object {
+          "backgroundColor": "#283c4f",
+          "border": "none",
+          "boxShadow": "none",
+          "color": "white",
+          "marginLeft": "-25px",
+          "marginTop": "-75px",
+        }
+      }
+    />
+    <TypedComponent
+      position="x*y"
+      size={4}
+      tooltip={
+        Array [
+          "x*y",
+          [Function],
+        ]
+      }
+      type="interval"
+    />
+  </BChart>
+</div>
+`;
